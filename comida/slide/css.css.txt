@@ -1,0 +1,15 @@
+/* Estilize o carrossel e os slides */
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* Defina a largura desejada para o carrossel */
+}
+
+.slide {
+    flex: 0 0 100%; /* Tamanho de cada slide */
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
