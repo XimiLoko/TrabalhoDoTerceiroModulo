@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" lang="pt-br"> <!--definiçao do padrão de caracteres(conjunto de caracteres)-->
+  <link rel="stylesheet" type="Text/css" href="modelo.css">
+<title>Buxim.com</title>
+</head>
+<body>
+<div id="container" ><!--inicio div container--> 
+ <div id="menu"><center>
+    <ul>
+		<button type="button"><a href="index.html">Menu</a></button>
+		<button type="button"><a href="cardapio.html">Cardapio</a></button>
+		<button type="button"><a href="formulario.html" >Fale Conosco</a></button>
+		<button type="button"><a href="base.html" >Buxim</a></button>
+	</ul>
+ </div>
+
+<div id="logotipo">
+<img src="..\logo\logo1.gif"  alt="description" width="100px" height="100px"></div>
+
+<div id="menu_base"> <a class="site" ><center> 
+<font size="7"> Trabalhe conosco </font></a>
+ </div> 
+  
+   <div id="principal">
+  
+   <legend><h2>Cadastro </h2></legend>
+<form action="artquivo.php" method="post" name="form1">
+<p>Dados Pessoais<br>
+<label > Nome:  <input type="text" name="nome" placeholder="Zé Colmeia" required="required"></label> <br>
+
+<label ><input type="radio" name="sex" Value="feminino">Feminino</label><br>
+<label ><input type="radio" name="sex" Value="masculino">Masculino</label><br>
+<label><input type="radio" name="sex" Value="outros">Outros...</label><br>
+<br>
+<label>CPF: <input type="text" name="cpf" maxlength="11" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"  Placeholder="Ex:000.XXX.XXX-00"></label><br> 	
+<label>RG: <input type="text" name="rg" maxlength="10" Placeholder="Ex:7110000000"></label><br> 	
+
+<label> E-mail:<input type="mail" name="mail" Placeholder="zecolmeia@uol.com"></label><br>
+<label> Senha: <input type="password" name="senha"></label><br>
+<label> Telefone: <input type="tel" name="tel" Placeholder="(oxx)4002-8922"></label><br>
+Areas de interesse<br>
+<label  ><input type="checkbox" name="interest" Value="frank">Ser um Franquiado </label><br>
+<label  ><input type="checkbox" name="interest" Value="cur">Currículo</label><br>
+<label ><input type="checkbox" name="interest" Value="out">Falar Sobre </label><br>
+<label ><input type="checkbox" name="interest" Value="obs">Observaçoes</label><br>
+<label ><input type="checkbox" name="interest" Value="help">Ajuda</label><br>
+
+<hr>
+
+<img src="..\comida\9.jpg"  alt="description" length="10%">
+<h3>Deixe aqui seu comentário</h3>
+<textarea  rows="5" cols="55">
+</textarea>
+<label >Anexo: <input type="fiel"  name="arq"></label>
+<input type="submit" name="enviar" value="ENVIAR">
+<input type="reset" name="limpar" value="REDEFINIR">
+<label class="lab"><input type="checkbox" name="comunidade"> Receba Nossas Ofertas e Novidades  </label>
+
+<img src="..\comida\10.jpg"  alt="description" width="1400px" height="703px">
+
+<div id="rodape1"> <center>
+   Aberto:09:00 ás 12:00<br>
+          14:00 ás 00:30   </div> 
+     <div id="logotipo"><img src="..\logo\logo2.gif" width="100px" height="100px"> </div><br>
+   <div id="rodape"> João Gordo - Não Me Toque - 13 -    (xx)0800.642-8922
+   <br>   Buxim_xeim@hotmail.com</p></div> <!-- fim container-->
+</body>
+</html>
